@@ -1,0 +1,2 @@
+(library
+ (name compound_interest))

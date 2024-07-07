@@ -1,0 +1,4 @@
+(executable
+ (public_name compound_interest)
+ (name main)
+ (libraries compound_interest))
