@@ -1,3 +1,8 @@
+"""
+This module creates an investment growth chart based on CSV data.
+It uses pandas for data manipulation and matplotlib for visualization.
+"""
+
 import pandas as pd
 import matplotlib.pyplot as plt
 
@@ -17,5 +22,5 @@ plt.legend()
 plt.grid(True)
 
 # Save chart
-plt.savefig('investment_chart.png')
+plt.savefig('./data/investment_chart.png')
 plt.show()
